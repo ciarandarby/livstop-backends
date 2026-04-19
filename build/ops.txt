@@ -1,0 +1,1169 @@
+def __top_level__():
+    r0, r1 :: object
+    r2 :: bit
+    r3 :: str
+    r4, r5 :: object
+    r6 :: str
+    r7 :: dict
+    r8, r9 :: object
+    r10 :: str
+    r11, r12 :: object
+    r13, r14 :: bool
+    r15, r16 :: str
+    r17 :: tuple
+    r18 :: i32
+    r19 :: bit
+    r20 :: dict
+    r21 :: str
+    r22 :: i32
+    r23 :: bit
+    r24 :: dict
+    r25 :: tuple[]
+    r26 :: dict
+    r27, r28 :: object
+    r29 :: str
+    r30 :: i32
+    r31 :: bit
+    r32, r33 :: str
+    r34 :: i32
+    r35 :: bit
+    r36 :: bool
+    r37 :: str
+    r38 :: i32
+    r39 :: bit
+    r40, r41 :: str
+    r42 :: i32
+    r43 :: bit
+    r44, r45 :: str
+    r46 :: i32
+    r47 :: bit
+    r48 :: dict
+    r49 :: str
+    r50 :: object
+    r51 :: str
+    r52 :: bit
+    r53 :: object
+    r54 :: str
+    r55, r56 :: object
+    r57, r58 :: bool
+    r59, r60, r61, r62, r63 :: str
+    r64 :: tuple
+    r65 :: i32
+    r66 :: bit
+    r67 :: dict
+    r68 :: str
+    r69 :: i32
+    r70 :: bit
+    r71 :: dict
+    r72 :: tuple[]
+    r73 :: dict
+    r74, r75 :: object
+    r76 :: str
+    r77 :: i32
+    r78 :: bit
+    r79, r80 :: str
+    r81 :: i32
+    r82 :: bit
+    r83 :: object
+    r84 :: str
+    r85 :: i32
+    r86 :: bit
+    r87, r88 :: str
+    r89 :: i32
+    r90 :: bit
+    r91 :: object
+    r92 :: str
+    r93 :: i32
+    r94 :: bit
+    r95, r96 :: str
+    r97 :: i32
+    r98 :: bit
+    r99 :: object
+    r100 :: str
+    r101 :: i32
+    r102 :: bit
+    r103 :: str
+    r104 :: object
+    r105 :: i32
+    r106 :: bit
+    r107 :: bool
+    r108 :: str
+    r109 :: i32
+    r110 :: bit
+    r111, r112 :: str
+    r113 :: i32
+    r114 :: bit
+    r115, r116 :: str
+    r117 :: i32
+    r118 :: bit
+    r119 :: dict
+    r120 :: str
+    r121 :: object
+    r122 :: str
+    r123 :: bit
+    r124 :: object
+    r125 :: str
+    r126, r127 :: object
+    r128, r129 :: bool
+    r130, r131, r132 :: str
+    r133 :: tuple
+    r134 :: i32
+    r135 :: bit
+    r136 :: dict
+    r137 :: str
+    r138 :: i32
+    r139 :: bit
+    r140 :: dict
+    r141 :: tuple[]
+    r142 :: dict
+    r143, r144 :: object
+    r145 :: str
+    r146 :: i32
+    r147 :: bit
+    r148, r149 :: str
+    r150 :: i32
+    r151 :: bit
+    r152 :: object
+    r153 :: str
+    r154 :: i32
+    r155 :: bit
+    r156, r157 :: str
+    r158 :: i32
+    r159 :: bit
+    r160 :: bool
+    r161 :: str
+    r162 :: i32
+    r163 :: bit
+    r164, r165 :: str
+    r166 :: i32
+    r167 :: bit
+    r168, r169 :: str
+    r170 :: i32
+    r171 :: bit
+    r172 :: dict
+    r173 :: str
+    r174 :: object
+    r175 :: str
+    r176 :: bit
+    r177 :: object
+    r178 :: str
+    r179, r180 :: object
+    r181, r182 :: bool
+    r183, r184, r185, r186, r187, r188, r189, r190, r191, r192 :: str
+    r193 :: tuple
+    r194 :: i32
+    r195 :: bit
+    r196 :: dict
+    r197 :: str
+    r198 :: i32
+    r199 :: bit
+    r200 :: dict
+    r201 :: tuple[]
+    r202 :: dict
+    r203, r204 :: object
+    r205 :: str
+    r206 :: i32
+    r207 :: bit
+    r208 :: str
+    r209 :: object
+    r210 :: i32
+    r211 :: bit
+    r212 :: object
+    r213 :: str
+    r214 :: i32
+    r215 :: bit
+    r216 :: str
+    r217 :: object
+    r218 :: i32
+    r219 :: bit
+    r220 :: object
+    r221 :: str
+    r222 :: i32
+    r223 :: bit
+    r224 :: str
+    r225 :: object
+    r226 :: i32
+    r227 :: bit
+    r228 :: object
+    r229 :: str
+    r230 :: i32
+    r231 :: bit
+    r232 :: str
+    r233 :: object
+    r234 :: i32
+    r235 :: bit
+    r236 :: object
+    r237 :: str
+    r238 :: i32
+    r239 :: bit
+    r240 :: str
+    r241 :: object
+    r242 :: i32
+    r243 :: bit
+    r244 :: object
+    r245 :: str
+    r246 :: i32
+    r247 :: bit
+    r248 :: str
+    r249 :: object
+    r250 :: i32
+    r251 :: bit
+    r252 :: object
+    r253 :: str
+    r254 :: i32
+    r255 :: bit
+    r256 :: str
+    r257 :: object
+    r258 :: i32
+    r259 :: bit
+    r260 :: object
+    r261 :: str
+    r262 :: i32
+    r263 :: bit
+    r264 :: str
+    r265 :: object
+    r266 :: i32
+    r267 :: bit
+    r268 :: object
+    r269 :: str
+    r270 :: i32
+    r271 :: bit
+    r272 :: str
+    r273 :: object
+    r274 :: i32
+    r275 :: bit
+    r276 :: bool
+    r277 :: str
+    r278 :: i32
+    r279 :: bit
+    r280, r281 :: str
+    r282 :: i32
+    r283 :: bit
+    r284, r285 :: str
+    r286 :: i32
+    r287 :: bit
+    r288 :: dict
+    r289 :: str
+    r290 :: object
+    r291 :: str
+    r292 :: bit
+    r293 :: object
+    r294 :: str
+    r295, r296 :: object
+    r297, r298 :: bool
+    r299, r300, r301 :: str
+    r302 :: tuple
+    r303 :: i32
+    r304 :: bit
+    r305 :: dict
+    r306 :: str
+    r307 :: i32
+    r308 :: bit
+    r309 :: dict
+    r310 :: tuple[]
+    r311 :: dict
+    r312, r313 :: object
+    r314 :: str
+    r315 :: i32
+    r316 :: bit
+    r317, r318 :: str
+    r319 :: i32
+    r320 :: bit
+    r321 :: object
+    r322 :: str
+    r323 :: i32
+    r324 :: bit
+    r325, r326 :: str
+    r327 :: i32
+    r328 :: bit
+    r329 :: bool
+    r330 :: str
+    r331 :: i32
+    r332 :: bit
+    r333, r334 :: str
+    r335 :: i32
+    r336 :: bit
+    r337, r338 :: str
+    r339 :: i32
+    r340 :: bit
+    r341 :: dict
+    r342 :: str
+    r343 :: object
+    r344 :: str
+    r345 :: bit
+    r346 :: object
+    r347 :: str
+    r348, r349 :: object
+    r350, r351 :: bool
+    r352, r353, r354, r355, r356, r357 :: str
+    r358 :: tuple
+    r359 :: i32
+    r360 :: bit
+    r361 :: dict
+    r362 :: str
+    r363 :: i32
+    r364 :: bit
+    r365 :: dict
+    r366 :: tuple[]
+    r367 :: dict
+    r368, r369 :: object
+    r370 :: str
+    r371 :: i32
+    r372 :: bit
+    r373, r374 :: str
+    r375 :: i32
+    r376 :: bit
+    r377 :: object
+    r378 :: str
+    r379 :: i32
+    r380 :: bit
+    r381, r382 :: str
+    r383 :: i32
+    r384 :: bit
+    r385 :: object
+    r386 :: str
+    r387 :: i32
+    r388 :: bit
+    r389, r390 :: str
+    r391 :: i32
+    r392 :: bit
+    r393 :: object
+    r394 :: str
+    r395 :: i32
+    r396 :: bit
+    r397, r398 :: str
+    r399 :: i32
+    r400 :: bit
+    r401 :: object
+    r402 :: str
+    r403 :: i32
+    r404 :: bit
+    r405, r406 :: str
+    r407 :: i32
+    r408 :: bit
+    r409 :: bool
+    r410 :: str
+    r411 :: i32
+    r412 :: bit
+    r413, r414 :: str
+    r415 :: i32
+    r416 :: bit
+    r417, r418 :: str
+    r419 :: i32
+    r420 :: bit
+    r421 :: dict
+    r422 :: str
+    r423 :: object
+    r424 :: str
+    r425 :: bit
+    r426 :: None
+L0:
+    r0 = builtins :: module
+    r1 = load_address _Py_NoneStruct
+    r2 = r0 != r1
+    if r2 goto L3 else goto L1 :: bool
+L1:
+    r3 = 'builtins'
+    r4 = PyImport_Import(r3)
+    if is_error(r4) goto L135 (error at <module>:1) else goto L2
+L2:
+    builtins = r4 :: module
+    dec_ref r4
+L3:
+    r5 = ('dataclass',)
+    r6 = 'dataclasses'
+    r7 = settings.globals :: static
+    r8 = CPyImport_ImportFromMany(r6, r5, r5, r7)
+    if is_error(r8) goto L135 (error at <module>:2) else goto L4
+L4:
+    dataclasses = r8 :: module
+    dec_ref r8
+    r9 = <error> :: object
+    r10 = 'settings'
+    r11 = settings.ConfigPath_template :: type
+    r12 = CPyType_FromTemplate(r11, r9, r10)
+    if is_error(r12) goto L135 (error at <module>:21) else goto L5
+L5:
+    r13 = ConfigPath_trait_vtable_setup()
+    if is_error(r13) goto L136 (error at <module>:21) else goto L6
+L6:
+    r14 = ConfigPath_coroutine_setup(r12)
+    if is_error(r14) goto L136 (error at <module>:21) else goto L7
+L7:
+    r15 = '__mypyc_attrs__'
+    r16 = 'config_path'
+    r17 = PyTuple_Pack(1, r16)
+    if is_error(r17) goto L136 (error at <module>:21) else goto L8
+L8:
+    r18 = PyObject_SetAttr(r12, r15, r17)
+    dec_ref r17
+    r19 = r18 >= 0 :: signed
+    if not r19 goto L136 (error at <module>:21) else goto L9 :: bool
+L9:
+    settings.ConfigPath = r12 :: type
+    r20 = settings.globals :: static
+    r21 = 'ConfigPath'
+    r22 = PyDict_SetItem(r20, r21, r12)
+    r23 = r22 >= 0 :: signed
+    if not r23 goto L136 (error at <module>:21) else goto L10 :: bool
+L10:
+    r24 = PyDict_New()
+    if is_error(r24) goto L136 (error at <module>:21) else goto L11
+L11:
+    r25 = ()
+    r26 = PyDict_New()
+    if is_error(r26) goto L137 (error at <module>:21) else goto L12
+L12:
+    r27 = load_address PyType_Type
+    r28 = load_address PyUnicode_Type
+    r29 = 'config_path'
+    r30 = PyDict_SetItem(r26, r29, r28)
+    r31 = r30 >= 0 :: signed
+    if not r31 goto L138 (error at <module>:23) else goto L13 :: bool
+L13:
+    r32 = 'application.yml'
+    r33 = 'config_path'
+    r34 = CPyDict_SetItem(r24, r33, r32)
+    r35 = r34 >= 0 :: signed
+    if not r35 goto L138 (error at <module>:23) else goto L14 :: bool
+L14:
+    r36 = CPy_InitSubclass(r12)
+    if not r36 goto L138 (error at <module>:21) else goto L15 :: bool
+L15:
+    r37 = '__annotations__'
+    r38 = CPyDict_SetItem(r24, r37, r26)
+    r39 = r38 >= 0 :: signed
+    if not r39 goto L138 (error at <module>:21) else goto L16 :: bool
+L16:
+    r40 = 'mypyc filler docstring'
+    r41 = '__doc__'
+    r42 = CPyDict_SetItem(r24, r41, r40)
+    r43 = r42 >= 0 :: signed
+    if not r43 goto L138 (error at <module>:21) else goto L17 :: bool
+L17:
+    r44 = 'settings'
+    r45 = '__module__'
+    r46 = CPyDict_SetItem(r24, r45, r44)
+    r47 = r46 >= 0 :: signed
+    if not r47 goto L138 (error at <module>:21) else goto L18 :: bool
+L18:
+    r48 = settings.globals :: static
+    r49 = 'dataclass'
+    r50 = CPyDict_GetItem(r48, r49)
+    if is_error(r50) goto L138 (error at <module>:20) else goto L19
+L19:
+    r51 = 'dataclasses'
+    r52 = CPyDataclass_SleightOfHand(r50, r12, r24, r26, r51)
+    dec_ref r50
+    dec_ref r12
+    dec_ref r24
+    dec_ref r26
+    if not r52 goto L135 (error at <module>:21) else goto L20 :: bool
+L20:
+    r53 = <error> :: object
+    r54 = 'settings'
+    r55 = settings.AppConfig_template :: type
+    r56 = CPyType_FromTemplate(r55, r53, r54)
+    if is_error(r56) goto L135 (error at <module>:27) else goto L21
+L21:
+    r57 = AppConfig_trait_vtable_setup()
+    if is_error(r57) goto L139 (error at <module>:27) else goto L22
+L22:
+    r58 = AppConfig_coroutine_setup(r56)
+    if is_error(r58) goto L139 (error at <module>:27) else goto L23
+L23:
+    r59 = '__mypyc_attrs__'
+    r60 = 'app_name'
+    r61 = 'environement'
+    r62 = 'host'
+    r63 = 'port'
+    r64 = PyTuple_Pack(4, r60, r61, r62, r63)
+    if is_error(r64) goto L139 (error at <module>:27) else goto L24
+L24:
+    r65 = PyObject_SetAttr(r56, r59, r64)
+    dec_ref r64
+    r66 = r65 >= 0 :: signed
+    if not r66 goto L139 (error at <module>:27) else goto L25 :: bool
+L25:
+    settings.AppConfig = r56 :: type
+    r67 = settings.globals :: static
+    r68 = 'AppConfig'
+    r69 = PyDict_SetItem(r67, r68, r56)
+    r70 = r69 >= 0 :: signed
+    if not r70 goto L139 (error at <module>:27) else goto L26 :: bool
+L26:
+    r71 = PyDict_New()
+    if is_error(r71) goto L139 (error at <module>:27) else goto L27
+L27:
+    r72 = ()
+    r73 = PyDict_New()
+    if is_error(r73) goto L140 (error at <module>:27) else goto L28
+L28:
+    r74 = load_address PyType_Type
+    r75 = load_address PyUnicode_Type
+    r76 = 'app_name'
+    r77 = PyDict_SetItem(r73, r76, r75)
+    r78 = r77 >= 0 :: signed
+    if not r78 goto L141 (error at <module>:28) else goto L29 :: bool
+L29:
+    r79 = 'livstop'
+    r80 = 'app_name'
+    r81 = CPyDict_SetItem(r71, r80, r79)
+    r82 = r81 >= 0 :: signed
+    if not r82 goto L141 (error at <module>:28) else goto L30 :: bool
+L30:
+    r83 = load_address PyUnicode_Type
+    r84 = 'environement'
+    r85 = PyDict_SetItem(r73, r84, r83)
+    r86 = r85 >= 0 :: signed
+    if not r86 goto L141 (error at <module>:29) else goto L31 :: bool
+L31:
+    r87 = 'production'
+    r88 = 'environement'
+    r89 = CPyDict_SetItem(r71, r88, r87)
+    r90 = r89 >= 0 :: signed
+    if not r90 goto L141 (error at <module>:29) else goto L32 :: bool
+L32:
+    r91 = load_address PyUnicode_Type
+    r92 = 'host'
+    r93 = PyDict_SetItem(r73, r92, r91)
+    r94 = r93 >= 0 :: signed
+    if not r94 goto L141 (error at <module>:30) else goto L33 :: bool
+L33:
+    r95 = ''
+    r96 = 'host'
+    r97 = CPyDict_SetItem(r71, r96, r95)
+    r98 = r97 >= 0 :: signed
+    if not r98 goto L141 (error at <module>:30) else goto L34 :: bool
+L34:
+    r99 = load_address PyLong_Type
+    r100 = 'port'
+    r101 = PyDict_SetItem(r73, r100, r99)
+    r102 = r101 >= 0 :: signed
+    if not r102 goto L141 (error at <module>:31) else goto L35 :: bool
+L35:
+    r103 = 'port'
+    r104 = object 8000
+    r105 = CPyDict_SetItem(r71, r103, r104)
+    r106 = r105 >= 0 :: signed
+    if not r106 goto L141 (error at <module>:31) else goto L36 :: bool
+L36:
+    r107 = CPy_InitSubclass(r56)
+    if not r107 goto L141 (error at <module>:27) else goto L37 :: bool
+L37:
+    r108 = '__annotations__'
+    r109 = CPyDict_SetItem(r71, r108, r73)
+    r110 = r109 >= 0 :: signed
+    if not r110 goto L141 (error at <module>:27) else goto L38 :: bool
+L38:
+    r111 = 'mypyc filler docstring'
+    r112 = '__doc__'
+    r113 = CPyDict_SetItem(r71, r112, r111)
+    r114 = r113 >= 0 :: signed
+    if not r114 goto L141 (error at <module>:27) else goto L39 :: bool
+L39:
+    r115 = 'settings'
+    r116 = '__module__'
+    r117 = CPyDict_SetItem(r71, r116, r115)
+    r118 = r117 >= 0 :: signed
+    if not r118 goto L141 (error at <module>:27) else goto L40 :: bool
+L40:
+    r119 = settings.globals :: static
+    r120 = 'dataclass'
+    r121 = CPyDict_GetItem(r119, r120)
+    if is_error(r121) goto L141 (error at <module>:26) else goto L41
+L41:
+    r122 = 'dataclasses'
+    r123 = CPyDataclass_SleightOfHand(r121, r56, r71, r73, r122)
+    dec_ref r121
+    dec_ref r56
+    dec_ref r71
+    dec_ref r73
+    if not r123 goto L135 (error at <module>:27) else goto L42 :: bool
+L42:
+    r124 = <error> :: object
+    r125 = 'settings'
+    r126 = settings.DataSource_template :: type
+    r127 = CPyType_FromTemplate(r126, r124, r125)
+    if is_error(r127) goto L135 (error at <module>:35) else goto L43
+L43:
+    r128 = DataSource_trait_vtable_setup()
+    if is_error(r128) goto L142 (error at <module>:35) else goto L44
+L44:
+    r129 = DataSource_coroutine_setup(r127)
+    if is_error(r129) goto L142 (error at <module>:35) else goto L45
+L45:
+    r130 = '__mypyc_attrs__'
+    r131 = 'static_source_url'
+    r132 = 'realtime_trip_updates_url'
+    r133 = PyTuple_Pack(2, r131, r132)
+    if is_error(r133) goto L142 (error at <module>:35) else goto L46
+L46:
+    r134 = PyObject_SetAttr(r127, r130, r133)
+    dec_ref r133
+    r135 = r134 >= 0 :: signed
+    if not r135 goto L142 (error at <module>:35) else goto L47 :: bool
+L47:
+    settings.DataSource = r127 :: type
+    r136 = settings.globals :: static
+    r137 = 'DataSource'
+    r138 = PyDict_SetItem(r136, r137, r127)
+    r139 = r138 >= 0 :: signed
+    if not r139 goto L142 (error at <module>:35) else goto L48 :: bool
+L48:
+    r140 = PyDict_New()
+    if is_error(r140) goto L142 (error at <module>:35) else goto L49
+L49:
+    r141 = ()
+    r142 = PyDict_New()
+    if is_error(r142) goto L143 (error at <module>:35) else goto L50
+L50:
+    r143 = load_address PyType_Type
+    r144 = load_address PyUnicode_Type
+    r145 = 'static_source_url'
+    r146 = PyDict_SetItem(r142, r145, r144)
+    r147 = r146 >= 0 :: signed
+    if not r147 goto L144 (error at <module>:36) else goto L51 :: bool
+L51:
+    r148 = ''
+    r149 = 'static_source_url'
+    r150 = CPyDict_SetItem(r140, r149, r148)
+    r151 = r150 >= 0 :: signed
+    if not r151 goto L144 (error at <module>:36) else goto L52 :: bool
+L52:
+    r152 = load_address PyUnicode_Type
+    r153 = 'realtime_trip_updates_url'
+    r154 = PyDict_SetItem(r142, r153, r152)
+    r155 = r154 >= 0 :: signed
+    if not r155 goto L144 (error at <module>:37) else goto L53 :: bool
+L53:
+    r156 = ''
+    r157 = 'realtime_trip_updates_url'
+    r158 = CPyDict_SetItem(r140, r157, r156)
+    r159 = r158 >= 0 :: signed
+    if not r159 goto L144 (error at <module>:37) else goto L54 :: bool
+L54:
+    r160 = CPy_InitSubclass(r127)
+    if not r160 goto L144 (error at <module>:35) else goto L55 :: bool
+L55:
+    r161 = '__annotations__'
+    r162 = CPyDict_SetItem(r140, r161, r142)
+    r163 = r162 >= 0 :: signed
+    if not r163 goto L144 (error at <module>:35) else goto L56 :: bool
+L56:
+    r164 = 'mypyc filler docstring'
+    r165 = '__doc__'
+    r166 = CPyDict_SetItem(r140, r165, r164)
+    r167 = r166 >= 0 :: signed
+    if not r167 goto L144 (error at <module>:35) else goto L57 :: bool
+L57:
+    r168 = 'settings'
+    r169 = '__module__'
+    r170 = CPyDict_SetItem(r140, r169, r168)
+    r171 = r170 >= 0 :: signed
+    if not r171 goto L144 (error at <module>:35) else goto L58 :: bool
+L58:
+    r172 = settings.globals :: static
+    r173 = 'dataclass'
+    r174 = CPyDict_GetItem(r172, r173)
+    if is_error(r174) goto L144 (error at <module>:34) else goto L59
+L59:
+    r175 = 'dataclasses'
+    r176 = CPyDataclass_SleightOfHand(r174, r127, r140, r142, r175)
+    dec_ref r174
+    dec_ref r127
+    dec_ref r140
+    dec_ref r142
+    if not r176 goto L135 (error at <module>:35) else goto L60 :: bool
+L60:
+    r177 = <error> :: object
+    r178 = 'settings'
+    r179 = settings.MetaConfig_template :: type
+    r180 = CPyType_FromTemplate(r179, r177, r178)
+    if is_error(r180) goto L135 (error at <module>:41) else goto L61
+L61:
+    r181 = MetaConfig_trait_vtable_setup()
+    if is_error(r181) goto L145 (error at <module>:41) else goto L62
+L62:
+    r182 = MetaConfig_coroutine_setup(r180)
+    if is_error(r182) goto L145 (error at <module>:41) else goto L63
+L63:
+    r183 = '__mypyc_attrs__'
+    r184 = 'static_refresh_interval_hrs'
+    r185 = 'static_request_timeout_secs'
+    r186 = 'static_sync_check_interval_secs'
+    r187 = 'auto_download_static'
+    r188 = 'realtime_poll_interval_secs'
+    r189 = 'realtime_request_timeout_secs'
+    r190 = 'bootstrap_schema'
+    r191 = 'sync_batch_size'
+    r192 = 'auto_sync_start'
+    r193 = PyTuple_Pack(9, r184, r185, r186, r187, r188, r189, r190, r191, r192)
+    if is_error(r193) goto L145 (error at <module>:41) else goto L64
+L64:
+    r194 = PyObject_SetAttr(r180, r183, r193)
+    dec_ref r193
+    r195 = r194 >= 0 :: signed
+    if not r195 goto L145 (error at <module>:41) else goto L65 :: bool
+L65:
+    settings.MetaConfig = r180 :: type
+    r196 = settings.globals :: static
+    r197 = 'MetaConfig'
+    r198 = PyDict_SetItem(r196, r197, r180)
+    r199 = r198 >= 0 :: signed
+    if not r199 goto L145 (error at <module>:41) else goto L66 :: bool
+L66:
+    r200 = PyDict_New()
+    if is_error(r200) goto L145 (error at <module>:41) else goto L67
+L67:
+    r201 = ()
+    r202 = PyDict_New()
+    if is_error(r202) goto L146 (error at <module>:41) else goto L68
+L68:
+    r203 = load_address PyType_Type
+    r204 = load_address PyLong_Type
+    r205 = 'static_refresh_interval_hrs'
+    r206 = PyDict_SetItem(r202, r205, r204)
+    r207 = r206 >= 0 :: signed
+    if not r207 goto L147 (error at <module>:42) else goto L69 :: bool
+L69:
+    r208 = 'static_refresh_interval_hrs'
+    r209 = object 0
+    r210 = CPyDict_SetItem(r200, r208, r209)
+    r211 = r210 >= 0 :: signed
+    if not r211 goto L147 (error at <module>:42) else goto L70 :: bool
+L70:
+    r212 = load_address PyLong_Type
+    r213 = 'static_request_timeout_secs'
+    r214 = PyDict_SetItem(r202, r213, r212)
+    r215 = r214 >= 0 :: signed
+    if not r215 goto L147 (error at <module>:43) else goto L71 :: bool
+L71:
+    r216 = 'static_request_timeout_secs'
+    r217 = object 0
+    r218 = CPyDict_SetItem(r200, r216, r217)
+    r219 = r218 >= 0 :: signed
+    if not r219 goto L147 (error at <module>:43) else goto L72 :: bool
+L72:
+    r220 = load_address PyLong_Type
+    r221 = 'static_sync_check_interval_secs'
+    r222 = PyDict_SetItem(r202, r221, r220)
+    r223 = r222 >= 0 :: signed
+    if not r223 goto L147 (error at <module>:44) else goto L73 :: bool
+L73:
+    r224 = 'static_sync_check_interval_secs'
+    r225 = object 0
+    r226 = CPyDict_SetItem(r200, r224, r225)
+    r227 = r226 >= 0 :: signed
+    if not r227 goto L147 (error at <module>:44) else goto L74 :: bool
+L74:
+    r228 = load_address PyBool_Type
+    r229 = 'auto_download_static'
+    r230 = PyDict_SetItem(r202, r229, r228)
+    r231 = r230 >= 0 :: signed
+    if not r231 goto L147 (error at <module>:45) else goto L75 :: bool
+L75:
+    r232 = 'auto_download_static'
+    r233 = box(bool, 1)
+    r234 = CPyDict_SetItem(r200, r232, r233)
+    r235 = r234 >= 0 :: signed
+    if not r235 goto L147 (error at <module>:45) else goto L76 :: bool
+L76:
+    r236 = load_address PyLong_Type
+    r237 = 'realtime_poll_interval_secs'
+    r238 = PyDict_SetItem(r202, r237, r236)
+    r239 = r238 >= 0 :: signed
+    if not r239 goto L147 (error at <module>:46) else goto L77 :: bool
+L77:
+    r240 = 'realtime_poll_interval_secs'
+    r241 = object 0
+    r242 = CPyDict_SetItem(r200, r240, r241)
+    r243 = r242 >= 0 :: signed
+    if not r243 goto L147 (error at <module>:46) else goto L78 :: bool
+L78:
+    r244 = load_address PyLong_Type
+    r245 = 'realtime_request_timeout_secs'
+    r246 = PyDict_SetItem(r202, r245, r244)
+    r247 = r246 >= 0 :: signed
+    if not r247 goto L147 (error at <module>:47) else goto L79 :: bool
+L79:
+    r248 = 'realtime_request_timeout_secs'
+    r249 = object 0
+    r250 = CPyDict_SetItem(r200, r248, r249)
+    r251 = r250 >= 0 :: signed
+    if not r251 goto L147 (error at <module>:47) else goto L80 :: bool
+L80:
+    r252 = load_address PyBool_Type
+    r253 = 'bootstrap_schema'
+    r254 = PyDict_SetItem(r202, r253, r252)
+    r255 = r254 >= 0 :: signed
+    if not r255 goto L147 (error at <module>:48) else goto L81 :: bool
+L81:
+    r256 = 'bootstrap_schema'
+    r257 = box(bool, 1)
+    r258 = CPyDict_SetItem(r200, r256, r257)
+    r259 = r258 >= 0 :: signed
+    if not r259 goto L147 (error at <module>:48) else goto L82 :: bool
+L82:
+    r260 = load_address PyLong_Type
+    r261 = 'sync_batch_size'
+    r262 = PyDict_SetItem(r202, r261, r260)
+    r263 = r262 >= 0 :: signed
+    if not r263 goto L147 (error at <module>:49) else goto L83 :: bool
+L83:
+    r264 = 'sync_batch_size'
+    r265 = object 0
+    r266 = CPyDict_SetItem(r200, r264, r265)
+    r267 = r266 >= 0 :: signed
+    if not r267 goto L147 (error at <module>:49) else goto L84 :: bool
+L84:
+    r268 = load_address PyBool_Type
+    r269 = 'auto_sync_start'
+    r270 = PyDict_SetItem(r202, r269, r268)
+    r271 = r270 >= 0 :: signed
+    if not r271 goto L147 (error at <module>:50) else goto L85 :: bool
+L85:
+    r272 = 'auto_sync_start'
+    r273 = box(bool, 1)
+    r274 = CPyDict_SetItem(r200, r272, r273)
+    r275 = r274 >= 0 :: signed
+    if not r275 goto L147 (error at <module>:50) else goto L86 :: bool
+L86:
+    r276 = CPy_InitSubclass(r180)
+    if not r276 goto L147 (error at <module>:41) else goto L87 :: bool
+L87:
+    r277 = '__annotations__'
+    r278 = CPyDict_SetItem(r200, r277, r202)
+    r279 = r278 >= 0 :: signed
+    if not r279 goto L147 (error at <module>:41) else goto L88 :: bool
+L88:
+    r280 = 'mypyc filler docstring'
+    r281 = '__doc__'
+    r282 = CPyDict_SetItem(r200, r281, r280)
+    r283 = r282 >= 0 :: signed
+    if not r283 goto L147 (error at <module>:41) else goto L89 :: bool
+L89:
+    r284 = 'settings'
+    r285 = '__module__'
+    r286 = CPyDict_SetItem(r200, r285, r284)
+    r287 = r286 >= 0 :: signed
+    if not r287 goto L147 (error at <module>:41) else goto L90 :: bool
+L90:
+    r288 = settings.globals :: static
+    r289 = 'dataclass'
+    r290 = CPyDict_GetItem(r288, r289)
+    if is_error(r290) goto L147 (error at <module>:40) else goto L91
+L91:
+    r291 = 'dataclasses'
+    r292 = CPyDataclass_SleightOfHand(r290, r180, r200, r202, r291)
+    dec_ref r290
+    dec_ref r180
+    dec_ref r200
+    dec_ref r202
+    if not r292 goto L135 (error at <module>:41) else goto L92 :: bool
+L92:
+    r293 = <error> :: object
+    r294 = 'settings'
+    r295 = settings.Secrets_template :: type
+    r296 = CPyType_FromTemplate(r295, r293, r294)
+    if is_error(r296) goto L135 (error at <module>:54) else goto L93
+L93:
+    r297 = Secrets_trait_vtable_setup()
+    if is_error(r297) goto L148 (error at <module>:54) else goto L94
+L94:
+    r298 = Secrets_coroutine_setup(r296)
+    if is_error(r298) goto L148 (error at <module>:54) else goto L95
+L95:
+    r299 = '__mypyc_attrs__'
+    r300 = 'NTA_KEY_PRIMARY'
+    r301 = 'NTA_KEY_SECONDARY'
+    r302 = PyTuple_Pack(2, r300, r301)
+    if is_error(r302) goto L148 (error at <module>:54) else goto L96
+L96:
+    r303 = PyObject_SetAttr(r296, r299, r302)
+    dec_ref r302
+    r304 = r303 >= 0 :: signed
+    if not r304 goto L148 (error at <module>:54) else goto L97 :: bool
+L97:
+    settings.Secrets = r296 :: type
+    r305 = settings.globals :: static
+    r306 = 'Secrets'
+    r307 = PyDict_SetItem(r305, r306, r296)
+    r308 = r307 >= 0 :: signed
+    if not r308 goto L148 (error at <module>:54) else goto L98 :: bool
+L98:
+    r309 = PyDict_New()
+    if is_error(r309) goto L148 (error at <module>:54) else goto L99
+L99:
+    r310 = ()
+    r311 = PyDict_New()
+    if is_error(r311) goto L149 (error at <module>:54) else goto L100
+L100:
+    r312 = load_address PyType_Type
+    r313 = load_address PyUnicode_Type
+    r314 = 'NTA_KEY_PRIMARY'
+    r315 = PyDict_SetItem(r311, r314, r313)
+    r316 = r315 >= 0 :: signed
+    if not r316 goto L150 (error at <module>:55) else goto L101 :: bool
+L101:
+    r317 = ''
+    r318 = 'NTA_KEY_PRIMARY'
+    r319 = CPyDict_SetItem(r309, r318, r317)
+    r320 = r319 >= 0 :: signed
+    if not r320 goto L150 (error at <module>:55) else goto L102 :: bool
+L102:
+    r321 = load_address PyUnicode_Type
+    r322 = 'NTA_KEY_SECONDARY'
+    r323 = PyDict_SetItem(r311, r322, r321)
+    r324 = r323 >= 0 :: signed
+    if not r324 goto L150 (error at <module>:56) else goto L103 :: bool
+L103:
+    r325 = ''
+    r326 = 'NTA_KEY_SECONDARY'
+    r327 = CPyDict_SetItem(r309, r326, r325)
+    r328 = r327 >= 0 :: signed
+    if not r328 goto L150 (error at <module>:56) else goto L104 :: bool
+L104:
+    r329 = CPy_InitSubclass(r296)
+    if not r329 goto L150 (error at <module>:54) else goto L105 :: bool
+L105:
+    r330 = '__annotations__'
+    r331 = CPyDict_SetItem(r309, r330, r311)
+    r332 = r331 >= 0 :: signed
+    if not r332 goto L150 (error at <module>:54) else goto L106 :: bool
+L106:
+    r333 = 'mypyc filler docstring'
+    r334 = '__doc__'
+    r335 = CPyDict_SetItem(r309, r334, r333)
+    r336 = r335 >= 0 :: signed
+    if not r336 goto L150 (error at <module>:54) else goto L107 :: bool
+L107:
+    r337 = 'settings'
+    r338 = '__module__'
+    r339 = CPyDict_SetItem(r309, r338, r337)
+    r340 = r339 >= 0 :: signed
+    if not r340 goto L150 (error at <module>:54) else goto L108 :: bool
+L108:
+    r341 = settings.globals :: static
+    r342 = 'dataclass'
+    r343 = CPyDict_GetItem(r341, r342)
+    if is_error(r343) goto L150 (error at <module>:53) else goto L109
+L109:
+    r344 = 'dataclasses'
+    r345 = CPyDataclass_SleightOfHand(r343, r296, r309, r311, r344)
+    dec_ref r343
+    dec_ref r296
+    dec_ref r309
+    dec_ref r311
+    if not r345 goto L135 (error at <module>:54) else goto L110 :: bool
+L110:
+    r346 = <error> :: object
+    r347 = 'settings'
+    r348 = settings.LoggerConfig_template :: type
+    r349 = CPyType_FromTemplate(r348, r346, r347)
+    if is_error(r349) goto L135 (error at <module>:60) else goto L111
+L111:
+    r350 = LoggerConfig_trait_vtable_setup()
+    if is_error(r350) goto L151 (error at <module>:60) else goto L112
+L112:
+    r351 = LoggerConfig_coroutine_setup(r349)
+    if is_error(r351) goto L151 (error at <module>:60) else goto L113
+L113:
+    r352 = '__mypyc_attrs__'
+    r353 = 'log_dir'
+    r354 = 'debug_filepath'
+    r355 = 'error_filepath'
+    r356 = 'warning_filepath'
+    r357 = 'info_filepath'
+    r358 = PyTuple_Pack(5, r353, r354, r355, r356, r357)
+    if is_error(r358) goto L151 (error at <module>:60) else goto L114
+L114:
+    r359 = PyObject_SetAttr(r349, r352, r358)
+    dec_ref r358
+    r360 = r359 >= 0 :: signed
+    if not r360 goto L151 (error at <module>:60) else goto L115 :: bool
+L115:
+    settings.LoggerConfig = r349 :: type
+    r361 = settings.globals :: static
+    r362 = 'LoggerConfig'
+    r363 = PyDict_SetItem(r361, r362, r349)
+    r364 = r363 >= 0 :: signed
+    if not r364 goto L151 (error at <module>:60) else goto L116 :: bool
+L116:
+    r365 = PyDict_New()
+    if is_error(r365) goto L151 (error at <module>:60) else goto L117
+L117:
+    r366 = ()
+    r367 = PyDict_New()
+    if is_error(r367) goto L152 (error at <module>:60) else goto L118
+L118:
+    r368 = load_address PyType_Type
+    r369 = load_address PyUnicode_Type
+    r370 = 'log_dir'
+    r371 = PyDict_SetItem(r367, r370, r369)
+    r372 = r371 >= 0 :: signed
+    if not r372 goto L153 (error at <module>:61) else goto L119 :: bool
+L119:
+    r373 = ''
+    r374 = 'log_dir'
+    r375 = CPyDict_SetItem(r365, r374, r373)
+    r376 = r375 >= 0 :: signed
+    if not r376 goto L153 (error at <module>:61) else goto L120 :: bool
+L120:
+    r377 = load_address PyUnicode_Type
+    r378 = 'debug_filepath'
+    r379 = PyDict_SetItem(r367, r378, r377)
+    r380 = r379 >= 0 :: signed
+    if not r380 goto L153 (error at <module>:62) else goto L121 :: bool
+L121:
+    r381 = ''
+    r382 = 'debug_filepath'
+    r383 = CPyDict_SetItem(r365, r382, r381)
+    r384 = r383 >= 0 :: signed
+    if not r384 goto L153 (error at <module>:62) else goto L122 :: bool
+L122:
+    r385 = load_address PyUnicode_Type
+    r386 = 'error_filepath'
+    r387 = PyDict_SetItem(r367, r386, r385)
+    r388 = r387 >= 0 :: signed
+    if not r388 goto L153 (error at <module>:63) else goto L123 :: bool
+L123:
+    r389 = ''
+    r390 = 'error_filepath'
+    r391 = CPyDict_SetItem(r365, r390, r389)
+    r392 = r391 >= 0 :: signed
+    if not r392 goto L153 (error at <module>:63) else goto L124 :: bool
+L124:
+    r393 = load_address PyUnicode_Type
+    r394 = 'warning_filepath'
+    r395 = PyDict_SetItem(r367, r394, r393)
+    r396 = r395 >= 0 :: signed
+    if not r396 goto L153 (error at <module>:64) else goto L125 :: bool
+L125:
+    r397 = ''
+    r398 = 'warning_filepath'
+    r399 = CPyDict_SetItem(r365, r398, r397)
+    r400 = r399 >= 0 :: signed
+    if not r400 goto L153 (error at <module>:64) else goto L126 :: bool
+L126:
+    r401 = load_address PyUnicode_Type
+    r402 = 'info_filepath'
+    r403 = PyDict_SetItem(r367, r402, r401)
+    r404 = r403 >= 0 :: signed
+    if not r404 goto L153 (error at <module>:65) else goto L127 :: bool
+L127:
+    r405 = ''
+    r406 = 'info_filepath'
+    r407 = CPyDict_SetItem(r365, r406, r405)
+    r408 = r407 >= 0 :: signed
+    if not r408 goto L153 (error at <module>:65) else goto L128 :: bool
+L128:
+    r409 = CPy_InitSubclass(r349)
+    if not r409 goto L153 (error at <module>:60) else goto L129 :: bool
+L129:
+    r410 = '__annotations__'
+    r411 = CPyDict_SetItem(r365, r410, r367)
+    r412 = r411 >= 0 :: signed
+    if not r412 goto L153 (error at <module>:60) else goto L130 :: bool
+L130:
+    r413 = 'mypyc filler docstring'
+    r414 = '__doc__'
+    r415 = CPyDict_SetItem(r365, r414, r413)
+    r416 = r415 >= 0 :: signed
+    if not r416 goto L153 (error at <module>:60) else goto L131 :: bool
+L131:
+    r417 = 'settings'
+    r418 = '__module__'
+    r419 = CPyDict_SetItem(r365, r418, r417)
+    r420 = r419 >= 0 :: signed
+    if not r420 goto L153 (error at <module>:60) else goto L132 :: bool
+L132:
+    r421 = settings.globals :: static
+    r422 = 'dataclass'
+    r423 = CPyDict_GetItem(r421, r422)
+    if is_error(r423) goto L153 (error at <module>:59) else goto L133
+L133:
+    r424 = 'dataclasses'
+    r425 = CPyDataclass_SleightOfHand(r423, r349, r365, r367, r424)
+    dec_ref r423
+    dec_ref r349
+    dec_ref r365
+    dec_ref r367
+    if not r425 goto L135 (error at <module>:60) else goto L134 :: bool
+L134:
+    return 1
+L135:
+    r426 = <error> :: None
+    return r426
+L136:
+    dec_ref r12
+    goto L135
+L137:
+    dec_ref r12
+    dec_ref r24
+    goto L135
+L138:
+    dec_ref r12
+    dec_ref r24
+    dec_ref r26
+    goto L135
+L139:
+    dec_ref r56
+    goto L135
+L140:
+    dec_ref r56
+    dec_ref r71
+    goto L135
+L141:
+    dec_ref r56
+    dec_ref r71
+    dec_ref r73
+    goto L135
+L142:
+    dec_ref r127
+    goto L135
+L143:
+    dec_ref r127
+    dec_ref r140
+    goto L135
+L144:
+    dec_ref r127
+    dec_ref r140
+    dec_ref r142
+    goto L135
+L145:
+    dec_ref r180
+    goto L135
+L146:
+    dec_ref r180
+    dec_ref r200
+    goto L135
+L147:
+    dec_ref r180
+    dec_ref r200
+    dec_ref r202
+    goto L135
+L148:
+    dec_ref r296
+    goto L135
+L149:
+    dec_ref r296
+    dec_ref r309
+    goto L135
+L150:
+    dec_ref r296
+    dec_ref r309
+    dec_ref r311
+    goto L135
+L151:
+    dec_ref r349
+    goto L135
+L152:
+    dec_ref r349
+    dec_ref r365
+    goto L135
+L153:
+    dec_ref r349
+    dec_ref r365
+    dec_ref r367
+    goto L135

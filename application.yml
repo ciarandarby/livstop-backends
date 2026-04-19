@@ -1,0 +1,42 @@
+# Project uses yml to inject values into the runtime
+# Make two additional copies of this file and make an application (shared), dev-application and prod-application if needed
+# Doing this makes it more streamlined when deploying prod, and dev containers and/or pods if clustered
+#
+#
+# For testing and development, although I would highly advise against it, a .env file can be used to export the secret variables
+
+app_config:
+  app_name: "livstop"
+  environement: "production"
+  host: "0.0.0.0"
+  port: 8000
+
+data_source:
+  static_source_url: "https://www.transportforireland.ie/transitData/Data/GTFS_Realtime.zip"
+  realtime_trip_updates_url: "https://api.nationaltransport.ie/gtfsr/v2/TripUpdates"
+
+dirs:
+  gtfs_path: "gtfs_Realtime"
+  database_path: ".data/transport.sqlite3"
+
+logging:
+  log_dir: "logs"
+  debug_filepath: "logs/debug.log"
+  error_filepath: "logs/error.log"
+  warning_filepath: "logs/warning.log"
+  info_filepath: "log/info.log"
+
+meta_config:
+  static_refresh_interval_hrs: 72
+  static_request_timeout_secs: 120
+  static_sync_check_interval_secs: 3600
+  auto_download_static: True
+  realtime_poll_interval_secs: 30
+  realtime_request_timeout_secs: 20
+  bootstrap_schema: True
+  sync_batch_size: 5000
+  auto_sync_start: True
+
+secrets:
+  NTA_KEY_PRIMARY: ${NTA_PRIMARY_KEY}
+  NTA_KEY_SECONDARY: ${NTA_SECONDARY_KEY}

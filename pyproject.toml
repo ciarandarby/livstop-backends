@@ -1,0 +1,14 @@
+[project]
+name = "livstop-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.136.0",
+    "mypy>=1.20.1",
+    "pydantic-settings>=2.13.1",
+    "setuptools>=82.0.1",
+    "types-setuptools>=82.0.0.20260408",
+    "yamldataclassconfig>=2.0.5",
+]
